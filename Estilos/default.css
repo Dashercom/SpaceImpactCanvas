@@ -1,0 +1,58 @@
+body {
+	background-color:#000000;
+	background:#000000 url('../imagenes/principal.jpg') no-repeat center;
+	text-align: center;
+}
+h1,h2{
+	color:#DC0007;
+}
+section {
+	float:center;
+	clear:none;
+	background:url('../imagenes/trasparente.png');
+	border:2px solid;
+	border-color:#000000;
+	border-radius:15px;
+	margin:2em 32em;
+	padding:2em 2em;
+	text-align:center;
+}
+img{
+	width: 150px;
+	height: 200px;
+}
+canvas {
+	background:url('../imagenes/fondo.jpg');
+	color:#ffffff;
+	border:2px solid;
+	border-color:#000000;
+	border-radius:5px;
+}
+
+.Content {
+	position: absolute;
+	z-index: 100;
+	clear:none;
+	background:#00AAE4;
+	border:2px solid;
+	border-color:#000000;
+	border-radius:15px;
+	margin:7.5em 32.6em;
+	padding:1.25em 1.25em;
+	text-align:center;
+}	
+.fondo{
+	position: relative;
+	z-index: 50;
+	margin-left: auto;
+  	margin-right: auto;	
+	border: 2px ;
+	border-color:#000000;
+  	height:960px;
+  	width: 1150px;
+	background:#000000 url('../imagenes/Pegatina.jpg') no-repeat top center;
+	background-size: 1130px 950px;
+	text-align: center;
+}
+
+
